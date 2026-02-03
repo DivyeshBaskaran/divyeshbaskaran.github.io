@@ -197,9 +197,11 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    border-left: 2px solid var(--ink-black);
+    border-left: 2px solid var(--ink-white);
+    padding: 20px;
     padding-left: 20px;
     margin-bottom: 20px;
+    background-color: #0a0a0a;
 }
 
 .spec-item {
@@ -215,6 +217,18 @@ body {
 
 .spec-value {
     font-size: 14px;
+    font-weight: 700;
+}
+
+.spec-label-dark {
+    font-size: 10px;
+    color: var(--racing-red);
+    font-weight: 700;
+}
+
+.spec-value-dark {
+    font-size: 14px;
+    color:#f0f0f0;
     font-weight: 700;
 }
 
